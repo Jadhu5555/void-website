@@ -1,25 +1,23 @@
 # VOID Official Website
 
-A lightweight, responsive static landing page for Cloudflare Pages.
+Static website for Cloudflare Pages.
 
-## Current buttons
-- Chat Online → https://void-chat.voidbyjd.workers.dev/
-- Download App → /downloads/void.apk
+## Deploy
+From the project root:
+`wrangler pages deploy public --project-name=void-official`
 
-## Add the APK
-Copy your latest Android APK into:
-public/downloads/void.apk
+## Buttons
+- Chat Online: https://void-chat.voidbyjd.workers.dev/
+- Download App: /downloads/void.apk
 
-The website download button will then download it directly.
+Copy the latest release APK to `public/downloads/void.apk` before expecting the download button to work.
 
-## Deploy free with Cloudflare Pages
-1. Create a GitHub repository for this website.
-2. Upload the contents of this folder to the repository root.
-3. In Cloudflare Dashboard, open Workers & Pages → Create → Pages → Connect to Git.
-4. Select the repository.
-5. Framework preset: None
-6. Build command: leave blank
-7. Build output directory: public
-8. Deploy.
+## Important privacy-policy verification
+The privacy page reflects the product details provided: temporary username entry, no personal registration details requested, 60-second message expiry, and temporary images. Before treating it as a final legal statement, verify actual infrastructure processing, IP/security logs, analytics, image storage, backups, queues, deletion jobs and provider retention periods. Update the policy if those facts differ.
 
-No backend or paid service is required.
+## Pages
+- /legal/about.html
+- /legal/privacy.html
+- /legal/terms.html
+- /legal/community-guidelines.html
+- /legal/faq.html
