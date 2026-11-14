@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080809">
+  <meta name="description" content="VOID — a space to connect anonymously. Chat online or get the Android app.">
+  <title>VOID — Your space. Your identity.</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/void-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="VOID home">VOID<span class="brand-dot">.</span></a>
+    <span class="top-note"><span class="live-dot"></span> YOUR SPACE IS OPEN</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> ENTER THE VOID <span class="eyebrow-line"></span></div>
+      <h1>Your space.<br><span>Your identity.</span></h1>
+      <p class="intro">A place to meet, talk and express yourself.<br class="desktop-only"> Choose how you want to enter.</p>
+
+      <div class="choice-grid">
+        <a class="choice choice-primary" href="https://void-chat.voidbyjd.workers.dev/" target="_blank" rel="noopener">
+          <span class="choice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 5.8A2.8 2.8 0 0 1 6.8 3h10.4A2.8 2.8 0 0 1 20 5.8v7.4a2.8 2.8 0 0 1-2.8 2.8H10l-5.2 4v-4.5A2.8 2.8 0 0 1 4 13.5z"/><path d="M8 8h8M8 11.5h5"/></svg>
+          </span>
+          <span class="choice-copy"><strong>Chat online</strong><small>Open the web experience</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="choice choice-secondary" id="download-link" href="/downloads/void.apk" download>
+          <span class="choice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4"/><path d="M5 16v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3"/></svg>
+          </span>
+          <span class="choice-copy"><strong>Download app</strong><small>Get VOID for Android</small></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+      <p class="platform-note"><span class="android-dot"></span> ANDROID APP AVAILABLE</p>
+    </section>
+
+    <section class="below">
+      <div class="rule"></div>
+      <div class="below-inner">
+        <span class="mini-brand">VOID</span>
+        <p>Come as you are. Leave no unnecessary trace.</p>
+        <span class="copyright">© <span id="year"></span> VOID</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>BUILT FOR CONVERSATION</span>
+    <span>VOID — PRIVATE BY DESIGN</span>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Copy your latest signed VOID Android APK into this folder and name it void.apk.
